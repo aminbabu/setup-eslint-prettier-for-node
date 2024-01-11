@@ -84,10 +84,22 @@ Or, if you are using `yarn` as your default package manager, try this:
 yarn add -D prettier eslint-config-prettier eslint-plugin-prettier
 ```
 
-To follow airbnb style guide run the command:
+Or, if you are using `pnpm` as your default package manager, try this:
+
+```sh
+pnpm add -D prettier eslint-config-prettier eslint-plugin-prettier
+```
+
+To follow airbnb style guide run the following command:
 
 ```sh
 npx install-peerdeps --dev eslint-config-airbnb-base
+```
+
+Or, if you are using `pnpm` as you default package manager, you can try this:
+
+```sh
+pnpm dlx install-peerdeps -D eslint-config-airbnb-base
 ```
 
 ### Configure ESLint and Prettier
